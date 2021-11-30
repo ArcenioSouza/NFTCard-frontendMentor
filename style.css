@@ -10,26 +10,27 @@
 }
 
 .card {
-  width: 90%;
-  height: 80%;
+  width: 340px;
+  height: 590px;
   background-color: var(--darkBlueCard);
   border-radius: 15px;
-  padding: 5%;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .card img{
-   width: 100%;
-   height: 58%;
+   width: 300px;
+   height: 300px;
    border-radius: 15px;
-   margin-bottom: 15px;
+   margin-bottom: 20px;
 }
 
 h3{
+   font-size: 1.5em;
    color: var(--white);
    font-weight: 600;
-   margin-bottom: 15px;
+   margin-bottom: 20px;
 }
 
 .line{
@@ -50,14 +51,40 @@ span{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin: 15px 0 15px 0;
+   margin: 20px 0 20px 0;
+}
+
+.wrapper-eth-date .paragh-cyan{
+   display: flex;
+   color: var(--cyan);
+}
+
+.wrapper-eth-date .paragh-clock{
+   display: flex;
+}
+
+.wrapper-eth-date p i{
+   display: flex;
+   align-items: center;
+}
+
+.wrapper-eth-date i img{
+   width: 12px;
+   height: 20px;
+   margin: auto 5px auto 0;
+}
+
+.wrapper-eth-date .paragh-clock i img{
+   width: 18px;
+   height: 20px;
+   margin: auto 5px auto 0;
 }
 
 .wrapper-creation{
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   margin-top: 15px;
+   margin-top: 20px;
 }
 
 .wrapper-creation img{
@@ -66,5 +93,5 @@ span{
    height: 32px;
    border: 1px solid var(--white);
    border-radius: 50%;
-   margin: auto 15px auto 0;
+   margin: auto 20px auto 0;
 }
